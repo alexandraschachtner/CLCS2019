@@ -6,3 +6,11 @@ C:\Users\Lex\Desktop\LastChanceCsharp\bin\Debug\LastChanceCsharp.pdb
 C:\Users\Lex\Desktop\LastChanceCsharp\obj\Debug\LastChanceCsharp.exe
 C:\Users\Lex\Desktop\LastChanceCsharp\obj\Debug\LastChanceCsharp.pdb
 C:\Users\Lex\Desktop\LastChanceCsharp\bin\Debug\Volunteers.csv
+C:\Users\Lex\Desktop\CLCS2019\bin\Debug\Volunteers.csv
+C:\Users\Lex\Desktop\CLCS2019\bin\Debug\LastChanceCsharp.exe.config
+C:\Users\Lex\Desktop\CLCS2019\bin\Debug\LastChanceCsharp.exe
+C:\Users\Lex\Desktop\CLCS2019\bin\Debug\LastChanceCsharp.pdb
+C:\Users\Lex\Desktop\CLCS2019\obj\Debug\LastChanceCsharp.csprojAssemblyReference.cache
+C:\Users\Lex\Desktop\CLCS2019\obj\Debug\LastChanceCsharp.csproj.CoreCompileInputs.cache
+C:\Users\Lex\Desktop\CLCS2019\obj\Debug\LastChanceCsharp.exe
+C:\Users\Lex\Desktop\CLCS2019\obj\Debug\LastChanceCsharp.pdb

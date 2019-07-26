@@ -15,7 +15,7 @@ namespace LastChanceCsharp
         
             static void Main(string[] args)
             {
-                // connecting to directory of VoleadFileunteers.csv
+            // connecting to directory of VoleadFileunteers.csv
             string currentDirectory = Directory.GetCurrentDirectory();
             DirectoryInfo directory = new DirectoryInfo(currentDirectory);
             var fileName = Path.Combine(directory.FullName, @"..\..\Volunteers.csv");
@@ -44,7 +44,7 @@ namespace LastChanceCsharp
 
                 var entry = Console.ReadLine();
                 var entry2 = entry.ToLower();
-
+            // if ALL is typed in a list of all volunteers is displayed
                 if (entry2 == "all")
                 {
                     var fileContents = ReadFile(fileName);
@@ -55,7 +55,7 @@ namespace LastChanceCsharp
                     Console.WriteLine("----------------------");
                     goto Start;
                 }
-                else
+                else //search for volunteer by first name, if it is found you will be prompted to delete or return to start of program
                 {
                     var found = values.FirstOrDefault(c => c.First == entry2);
                     if (found != null)
@@ -85,7 +85,7 @@ namespace LastChanceCsharp
                             goto Start;
                         }
                     }
-                    else
+                    else //if name is not found you will be promted to add the volunteer
                     {
                         Console.WriteLine("--------------------");
                         Console.WriteLine(entry + " was not Found!!!");
@@ -109,7 +109,7 @@ namespace LastChanceCsharp
 
 
 
-                //break
+                
                 Console.WriteLine("Thank you");
                 // } while (entry != "exit");
                 Console.WriteLine("--------------------");
